@@ -42,6 +42,50 @@ header p {
     font-size: 1.2rem;
 }
 
+/* Profile Section */
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(126, 90, 60, 0.8);
+    padding: 3rem 0;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.profile-pic {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px; /* You can adjust the size */
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #f1e0c5;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info {
+    flex: 2;
+    padding-left: 2rem;
+}
+
+.profile-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #f3f3f3;
+    text-align: left;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info p {
+    font-size: 1.1rem;
+    color: #6e4e3f;
+    line-height: 1.6;
+}
+
 /* Section Titles */
 h2 {
     font-size: 2.5rem;
@@ -149,4 +193,3 @@ h2:hover, .project-card h3:hover {
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
-
