@@ -1,0 +1,99 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e8f7fc;  /* Light Sky Blue */
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #4fc3f7;  /* Sky Blue */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+/* About Me Section */
+#about {
+    background-color: #ffffff; /* White background for contrast */
+    text-align: center;
+}
+
+#about h1 {
+    color: #0277bd; /* Darker Sky Blue */
+    font-size: 2.5rem;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #b3e5fc; /* Lighter Sky Blue */
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #01579b; /* Dark Sky Blue */
+}
+
+.project {
+    background-color: #ffffff; /* White background for projects */
+    margin: 20px 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    color: #0288d1; /* Medium Sky Blue */
+}
+
+.project p {
+    font-size: 1rem;
+    color: #01579b; /* Dark Sky Blue */
+}
+
+/* Skills Section */
+#skills {
+    background-color: #c1e3f9;  /* Light Sky Blue */
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #0277bd; /* Darker Sky Blue */
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    li
