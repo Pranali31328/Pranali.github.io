@@ -8,7 +8,8 @@
 
 /* Body and Background */
 body {
-    background: linear-gradient(135deg, #d1a45f, #7e5a3c);
+    background: url('https://www.example.com/your-image.jpg') no-repeat center center fixed; /* Replace with your preferred background image */
+    background-size: cover;
     color: #f3f3f3;
     padding: 0;
     font-size: 1rem;
@@ -23,9 +24,10 @@ body {
 
 /* Header */
 header {
-    background: #7e5a3c;
+    background: rgba(126, 90, 60, 0.8);
     padding: 2rem 0;
     text-align: center;
+    backdrop-filter: blur(10px);
 }
 
 header h1 {
@@ -46,11 +48,12 @@ h2 {
     margin-bottom: 1.5rem;
     color: #f3f3f3;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* About Section */
 #about {
-    background: #d1a45f;
+    background: rgba(209, 164, 95, 0.9);
     padding: 3rem 0;
     text-align: center;
     border-radius: 10px;
@@ -62,18 +65,19 @@ h2 {
     color: #6e4e3f;
     max-width: 800px;
     margin: 0 auto;
+    line-height: 1.6;
 }
 
 /* Projects Section */
 #projects {
-    background: #7e5a3c;
+    background: rgba(126, 90, 60, 0.9);
     padding: 3rem 0;
     border-radius: 10px;
     margin: 2rem 0;
 }
 
 .project-card {
-    background: #d1a45f;
+    background: rgba(209, 164, 95, 0.9);
     padding: 2rem;
     margin-bottom: 1.5rem;
     border-radius: 10px;
@@ -92,12 +96,12 @@ h2 {
 
 .project-card:hover {
     transform: translateY(-10px);
-    background: #b88b53;
+    background: rgba(184, 139, 83, 0.8);
 }
 
 /* Skills Section */
 #skills {
-    background: #d1a45f;
+    background: rgba(209, 164, 95, 0.9);
     padding: 3rem 0;
     border-radius: 10px;
     margin: 2rem 0;
@@ -116,7 +120,7 @@ h2 {
 
 /* Contact Section */
 #contact {
-    background: #7e5a3c;
+    background: rgba(126, 90, 60, 0.9);
     padding: 3rem 0;
     text-align: center;
     border-radius: 10px;
@@ -130,7 +134,7 @@ h2 {
 
 /* Footer */
 footer {
-    background: #4b2c16;
+    background: rgba(75, 44, 22, 0.9);
     padding: 1rem 0;
     text-align: center;
 }
@@ -140,8 +144,9 @@ footer p {
     font-size: 1rem;
 }
 
+/* Hover effects for text */
+h2:hover, .project-card h3:hover {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
-#skills ul {
-    display: flex;
-    justify-content: center;
-    li
