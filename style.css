@@ -1,97 +1,145 @@
-/* Basic Reset */
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Body Styles */
+/* Body and Background */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #e8f7fc;  /* Light Sky Blue */
-    color: #333;
+    background: linear-gradient(135deg, #d1a45f, #7e5a3c);
+    color: #f3f3f3;
+    padding: 0;
+    font-size: 1rem;
 }
 
-/* Header and Navigation */
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
 header {
-    background-color: #4fc3f7;  /* Sky Blue */
-    color: #fff;
-    padding: 1rem;
+    background: #7e5a3c;
+    padding: 2rem 0;
     text-align: center;
 }
 
-header nav ul {
-    list-style-type: none;
+header h1 {
+    font-size: 3rem;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 20px;
+header p {
+    color: #f1e0c5;
+    font-size: 1.2rem;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #f3f3f3;
+    text-align: center;
 }
 
-/* Section Styles */
-section {
-    padding: 2rem;
+/* About Section */
+#about {
+    background: #d1a45f;
+    padding: 3rem 0;
+    text-align: center;
+    border-radius: 10px;
     margin: 2rem 0;
 }
 
-/* About Me Section */
-#about {
-    background-color: #ffffff; /* White background for contrast */
-    text-align: center;
-}
-
-#about h1 {
-    color: #0277bd; /* Darker Sky Blue */
-    font-size: 2.5rem;
+#about p {
+    font-size: 1.1rem;
+    color: #6e4e3f;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Projects Section */
 #projects {
-    background-color: #b3e5fc; /* Lighter Sky Blue */
+    background: #7e5a3c;
+    padding: 3rem 0;
+    border-radius: 10px;
+    margin: 2rem 0;
 }
 
-#projects h2 {
+.project-card {
+    background: #d1a45f;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
     text-align: center;
-    font-size: 2rem;
-    color: #01579b; /* Dark Sky Blue */
+    transition: all 0.3s ease-in-out;
 }
 
-.project {
-    background-color: #ffffff; /* White background for projects */
-    margin: 20px 0;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.project-card h3 {
+    font-size: 1.8rem;
+    color: #4b2c16;
 }
 
-.project h3 {
-    font-size: 1.5rem;
-    color: #0288d1; /* Medium Sky Blue */
+.project-card p {
+    color: #4b2c16;
 }
 
-.project p {
-    font-size: 1rem;
-    color: #01579b; /* Dark Sky Blue */
+.project-card:hover {
+    transform: translateY(-10px);
+    background: #b88b53;
 }
 
 /* Skills Section */
 #skills {
-    background-color: #c1e3f9;  /* Light Sky Blue */
+    background: #d1a45f;
+    padding: 3rem 0;
+    border-radius: 10px;
+    margin: 2rem 0;
 }
 
-#skills h2 {
+#skills ul {
+    list-style-type: none;
+    font-size: 1.1rem;
+    color: #4b2c16;
     text-align: center;
-    font-size: 2rem;
-    color: #0277bd; /* Darker Sky Blue */
 }
+
+#skills li {
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+#contact {
+    background: #7e5a3c;
+    padding: 3rem 0;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+#contact p {
+    color: #f1e0c5;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background: #4b2c16;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    color: #f3f3f3;
+    font-size: 1rem;
+}
+
 
 #skills ul {
     display: flex;
